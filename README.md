@@ -1,15 +1,13 @@
-##Bank tech test
+<h1>Bank tech test</h1>
 
-Specification
-
-<h1>Requirements</h1>
+##Requirements
 
 - You should be able to interact with the your code via IRB. (You don't need to implement a command line interface that takes input from STDIN.)
 - Deposits, withdrawal.
 - Account statement (date, amount, balance) printing.
 - Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
-<h1>Acceptance criteria</h1>
+##Acceptance criteria
 
 Given a client makes a deposit of 1000 on 10-01-2012 And a deposit of 2000 on 13-01-2012 And a withdrawal of 500 on 14-01-2012 When she prints her bank statement Then she would see:
 
