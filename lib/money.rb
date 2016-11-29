@@ -1,21 +1,21 @@
 class Money
   def initialize(value)
-    @cent = value
+    @value = value
   end
 
-  def cent
-    @cent
+  def value
+    @value
   end
 
   def to_s
-    "$"+sprintf( "%0.02f", @cent/100)
+    "$"+sprintf( "%0.02f", @value)
   end
 
   def +(other)
-    Money.new(self.cent + other.cent)
+    return Money.new(self.value + other.value)
   end
 
   def -(other)
-    Money.new(self.cent - other.cent)
+    return Money.new(self.value - other.value)
   end
 end
